@@ -1,0 +1,32 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	padding-top: 50px;
+	font-family: 'Lato', sans-serif;
+
+}
+
+.alert {
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+}
+
+.jumbotron {
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.front-title {
+	margin-top: 100px;
+}
+
+.landing {
+  background: image-url("https://8gsfcg-dm2305.files.1drv.com/y3m1RkL42qmfMmqXl36Ky_voHuOdgUft2AAVYpSQ9LM-ytu_NP7j8CT6W2uEoAjyd6Dj0s2L3uplvdmxWsVtIrwR3D-BMHVZbxfB1OeuPqPdwlOXviQz2POKSdWEk7W5lFMQQfOKu9V49Rz1iOMLqr15mf_NNLDIKpNEdhuETd0pMY?width=1920&height=1080&cropmode=none") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
